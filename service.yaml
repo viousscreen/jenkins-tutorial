@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: 632208330279.dkr.ecr.ap-northeast-2.amazonaws.com/jenkins-ecr:v0.0.1  # ECS Container 로 수정
+        image: 632208330279.dkr.ecr.ap-northeast-2.amazonaws.com/jenkins-ecr:IMAGE_VERSION  # ECS Container 로 수정
         imagePullPolicy: Always
         ports:
         - containerPort: 80
